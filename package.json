@@ -4,7 +4,8 @@
   "description": "Using Parcel to bundling React Web App",
   "main": "index.js",
   "scripts": {
-    "start": "parcel -p 3000 index.html"
+    "start": "parcel -p 3000 index.html",
+    "build": "NODE_ENV=production && parcel build -d build index.html --public-url ./"
   },
   "repository": "https://github.com/permadiwibisono/parcel-react-example.git",
   "author": "Permadi Wibisono <mbapewe@gmail.com>",
