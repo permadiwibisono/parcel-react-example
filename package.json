@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Using Parcel to bundling React Web App",
   "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 3000 index.html"
+  },
   "repository": "https://github.com/permadiwibisono/parcel-react-example.git",
   "author": "Permadi Wibisono <mbapewe@gmail.com>",
   "license": "MIT",
